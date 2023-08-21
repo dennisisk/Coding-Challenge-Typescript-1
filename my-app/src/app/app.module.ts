@@ -12,6 +12,13 @@ import { ClassExtensionComponent } from './Challenge-Questions/class-extension/c
 import { InterfacesComponent } from './Challenge-Questions/interfaces/interfaces.component';
 import { GenericsComponent } from './Challenge-Questions/generics/generics.component';
 import { ArrowFunctionsComponent } from './Challenge-Questions/arrow-functions/arrow-functions.component';
+import { ModulesSimpleComponent } from './Challenge-Questions/modules-simple/modules-simple.component';
+import { ModulesComponent } from './Challenge-Questions/modules/modules.component';
+import { CompounderComponent } from './Challenge-Questions/compounder/compounder.component';
+import { GreeterComponent } from './Challenge-Questions/greeter/greeter.component';
+import { CalculatorComponent } from './Challenge-Questions/calculator/calculator.component';
+import { CalculatorJqueryComponent } from './Challenge-Questions/calculator-jquery/calculator-jquery.component';
+import { BankingComponent } from './Challenge-Questions/banking/banking.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +31,14 @@ import { ArrowFunctionsComponent } from './Challenge-Questions/arrow-functions/a
     ClassExtensionComponent,
     InterfacesComponent,
     GenericsComponent,
-    ArrowFunctionsComponent
+    ArrowFunctionsComponent,
+    ModulesSimpleComponent,
+    ModulesComponent,
+    CompounderComponent,
+    GreeterComponent,
+    CalculatorComponent,
+    CalculatorJqueryComponent,
+    BankingComponent
   ],
   imports: [
     BrowserModule,
