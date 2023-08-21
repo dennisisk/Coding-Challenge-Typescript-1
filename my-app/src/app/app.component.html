@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8" />
     <title>TypeScript Demos</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" routerLink="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
     <style type="text/css">
         body {
             margin: 20px;
@@ -13,23 +13,25 @@
     <h1>TypeScript Examples</h1>
     <br />
     <ul>
-        <li><a href="Challenge-Questions/basic-types/index.html">Basic Types</a></li>
-        <li><a href="Challenge-Questions/parameter-types/index.html">Parameter Types</a></li>
-        <li><a href="Challenge-Questions/optional-default-parameters/index.html">Optional/Default Parameters</a></li>
-        <li><a href="Challenge-Questions/unions-aliases-const-enums/index.html">Unions, Aliases, Const Enums</a></li>
-        <li><a href="Challenge-Questions/classes/index.html">Classes</a></li>
-        <li><a href="Challenge-Questions/class-extension/index.html">Extending Classes</a></li>
-        <li><a href="Challenge-Questions/interfaces/index.html">Interfaces</a></li>
-        <li><a href="Challenge-Questions/generics/index.html">Generics</a></li>
-        <li><a href="Challenge-Questions/arrow-functions/index.html">Arrow Functions</a></li>
-        <li><a href="Challenge-Questions/modules-simple/index.html">Modules (Simple)</a></li>
-        <li><a href="Challenge-Questions/modules/index.html">Modules</a></li>
-        <li><a href="Challenge-Questions/compounder/index.html">Compounder</a></li>
-        <li><a href="Challenge-Questions/greeter/index.html">Greeter</a></li>
-        <li><a href="Challenge-Questions/calculator/index.html">Simple Calculator</a></li>
-        <li><a href="Challenge-Questions/calculator-jquery/index.html">Simple Calculator with jQuery</a></li>
-        <li><a href="Challenge-Questions/banking/index.html">Bank Accounts (classes, interfaces and generics)</a></li>
+      
+        <li><a routerLink="/basic-types">Basic Types</a></li>
+        <li><a routerLink="/parameter-types">Parameter Types</a></li>
+        <li><a routerLink="/optional-default-parameters">Optional/Default Parameters</a></li>
+        <li><a routerLink="/unions-aliases-const-enums">Unions, Aliases, Const Enums</a></li>
+        <li><a routerLink="/classes">Classes</a></li>
+        <li><a routerLink="/class-extension">Extending Classes</a></li>
+        <li><a routerLink="/interfaces">Interfaces</a></li>
+        <li><a routerLink="/generics">Generics</a></li>
+        <li><a routerLink="/arrow-functions">Arrow Functions</a></li>
+        <li><a routerLink="/modules-simple">Modules (Simple)</a></li>
+        <li><a routerLink="/modules">Modules</a></li>
+        <li><a routerLink="/compounder">Compounder</a></li>
+        <li><a routerLink="/greeter">Greeter</a></li>
+        <li><a routerLink="/calculator">Simple Calculator</a></li>
+        <li><a routerLink="/calculator-jquery">Simple Calculator with jQuery</a></li>
+        <li><a routerLink="/banking">Bank Accounts (classes, interfaces and generics)</a></li>
     </ul>
+    <router-outlet></router-outlet>
 </body>
 </html>
 
