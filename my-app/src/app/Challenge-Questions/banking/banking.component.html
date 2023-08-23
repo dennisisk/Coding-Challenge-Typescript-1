@@ -15,5 +15,18 @@
     <h4>Savings Balance</h4>
     <h4 id="savings"><div *ngIf="checkingClicked"><h4>${{balance}}</h4></div> </h4>
     <br />
+
+    <h4>Deposit</h4>
+    <button id="depositButton" (click)="deposit()">Checking</button> &nbsp;&nbsp;
+    <h4 id="Deposit"></h4>
+    <br />
+    <h4>Withdraw</h4>
+    <button id="withdrawButton" (click)="withdraw()">Checking</button> &nbsp;&nbsp;
+    <h4 id="Withdraw"></h4>
+    <br />
+    <h4>Show Account Detail</h4>
+    <button id="accountDetailButton" (click)="getAccountInfo()">Checking</button> &nbsp;&nbsp;
+    <h4 id="accountDetail"></h4>
+    <br />
 </body>
 </html>
