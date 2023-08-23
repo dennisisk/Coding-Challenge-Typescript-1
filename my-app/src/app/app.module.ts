@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BasicTypesComponent } from './Challenge-Questions/basic-types/basic-types.component';
-import { ParameterTypesComponent } from './Challenge-Question/parameter-types/parameter-types.component';
 import { OptionalDefaultParametersComponent } from './Challenge-Questions/optional-default-parameters/optional-default-parameters.component';
 import { UnionsAliasesConstEnumsComponent } from './Challenge-Questions/unions-aliases-const-enums/unions-aliases-const-enums.component';
 import { ClassesComponent } from './Challenge-Questions/classes/classes.component';
@@ -19,6 +18,7 @@ import { GreeterComponent } from './Challenge-Questions/greeter/greeter.componen
 import { CalculatorComponent } from './Challenge-Questions/calculator/calculator.component';
 import { CalculatorJqueryComponent } from './Challenge-Questions/calculator-jquery/calculator-jquery.component';
 import { BankingComponent } from './Challenge-Questions/banking/banking.component';
+import { ParameterTypesComponent } from './Challenge-Questions/parameter-types/parameter-types.component';
 
 @NgModule({
   declarations: [

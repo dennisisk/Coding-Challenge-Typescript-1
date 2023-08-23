@@ -11,10 +11,10 @@
         <div>
             <h3>Start/Stop Timer</h3>
             <br />
-            <button id="startButton" class="btn btn-success" onclick="">Start</button>&nbsp;&nbsp;
-            <button id="stopButton" class="btn btn-danger">Stop</button>
+            <button id="startButton" class="btn btn-success" onclick="startButton()" [disabled]="!startButton">Start</button>&nbsp;&nbsp;
+            <button id="stopButton" class="btn btn-danger" onclick="stopButton()">Stop</button>
             <br />
-            <h1 id="timer"></h1>
+            <h1 id="timer">{{timer}}</h1>
         </div>
     </div>
 </body>
