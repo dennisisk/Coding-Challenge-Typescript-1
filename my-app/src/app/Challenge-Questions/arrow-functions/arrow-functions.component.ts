@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { interval } from 'rxjs';
+import { interval, takeWhile } from 'rxjs';
 
 @Component({
   selector: 'app-arrow-functions',
@@ -10,17 +10,16 @@ export class ArrowFunctionsComponent {
   isDisabledStartButton: boolean = false;
   isDisabledStopButton: boolean = false;
   timer: number = 0;
+
+  
+
   stopButton() {
     this.isDisabledStartButton = false;
     this.isDisabledStopButton = true;
   }
 
-  startButton() {
-    if (this.isDisabledStartButton === false) {
-      this.timer + 0;
-    }
-  
-    interval(1000).subscribe(() => {
+  startButton() { 
+    const inter = interval(1000).subscribe(() => {
       this.timer += 1;
     });
     this.isDisabledStartButton = true;
