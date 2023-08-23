@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BankingComponent {
   isDisabledStart: boolean = false;
+  balance: number = 10000;
+  checkingClicked: boolean = false;
 
   deposit() {
 
@@ -14,6 +16,14 @@ export class BankingComponent {
 
   withdraw() {
 
+  }
+
+  checking() {
+    this.checkingClicked = true;
+  }
+
+  cancelChecking () {
+    this.checkingClicked = false;;
   }
 
   getAccountInfo() {

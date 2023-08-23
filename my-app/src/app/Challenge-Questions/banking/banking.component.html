@@ -9,15 +9,11 @@
     <br />
     <h4>Checking Balance</h4> 
     <h4 id="checking"></h4>
+    <button id="starCheckButton" (click)="checking()">Checking</button> &nbsp;&nbsp;
+    <button *ngIf="checkingClicked" id="cancelCheckButton" (click)="cancelChecking()">Cancel Checking</button>
     <br />
-
     <h4>Savings Balance</h4>
-    <h4 id="savings"></h4>
+    <h4 id="savings"><div *ngIf="checkingClicked"><h4>${{balance}}</h4></div> </h4>
     <br />
-
-    <h4>Account list</h4>
-    <h4 id="accounts"></h4>
-    <br />
-
 </body>
 </html>
