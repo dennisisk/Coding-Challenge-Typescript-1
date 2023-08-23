@@ -6,8 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./banking.component.css']
 })
 export class BankingComponent {
-  // updateTimer() {
-  //   this.start.disabled = true;
-  //   this.timerId = window.setInterval(() => this.timer.innerHTML = this.value++, 1000);
-  // }
+  isDisabledStart: boolean = false;
+
+  deposit() {
+
+  }
+
+  withdraw() {
+
+  }
+
+  getAccountInfo() {
+    return {
+      routingNumber: "1231A4433Y2",
+      bankNumber: 555555555
+    }
+  }
 }
