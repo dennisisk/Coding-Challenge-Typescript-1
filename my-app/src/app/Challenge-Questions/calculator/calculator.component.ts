@@ -14,7 +14,7 @@ export class CalculatorComponent {
     this.x = <HTMLInputElement>document.getElementById(xId);
     this.y = <HTMLInputElement>document.getElementById(yId);
     this.output = <HTMLSpanElement>document.getElementById(outputId);
-    this.wireEvents();
+    // this.wireEvents();
   }
 
   wireEvents() {
