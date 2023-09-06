@@ -21,8 +21,8 @@ export class ModulesComponent {
   testFunction() {
     const z = this.x + this.y;
     console.log('x + y = ' + z);
-    console.log('isLoaded = ' + this.isLoaded);
-    console.log('Pets List:');
+    console.log(' = ' + this.isLoaded);
+    console.log(' List:');
     for (const element of this.pets) {
       console.log(element);
     }
