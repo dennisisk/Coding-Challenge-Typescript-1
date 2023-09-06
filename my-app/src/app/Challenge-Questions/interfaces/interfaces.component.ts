@@ -14,15 +14,15 @@ export class InterfacesComponent {
   firstName: string = 'John';
   lastName: string = 'Doe';
 
-  pets: string[] = ['Fido', 'Lassie', 'Rover'];
+  pets: string[] = ['Fio', 'Laie', 'Rover'];
 
-  info: any = { address: '1234 Anywhere St.', city: 'Seattle' };
+  info: any = { address: '12Anywhere St.', city: 'Seattle' };
 
   testFunction() {
     const z = this.x + this.y;
-    console.log('x + y = ' + z);
-    console.log('isLoaded = ' + this.isLoaded);
-    console.log('Pets List:');
+    console.log('x + = ' + z);
+    console.log('isLaded = ' + this.isLoaded);
+    console.log('Petsst:');
     for (const element of this.pets) {
       console.log(element);
     }
