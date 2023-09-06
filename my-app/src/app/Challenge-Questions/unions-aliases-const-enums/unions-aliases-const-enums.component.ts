@@ -20,12 +20,12 @@ export class UnionsAliasesConstEnumsComponent {
 
   testFunction() {
     const z = this.x + this.y;
-    console.log('x + y = ' + z);
-    console.log('isLoaded = ' + this.isLoaded);
-    console.log('Pets List:');
+    console.log(' ' + z);
+    console.log('i = ' + this.isLoaded);
+    console.log('PeList:');
     for (const element of this.pets) {
       console.log(element);
     }
-    console.log('Info: ' + this.info.address + ' ' + this.info.city);
+    console.log('In: ' + this.info.address + ' ' + this.info.city);
   }
 }
